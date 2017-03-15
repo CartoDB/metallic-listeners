@@ -1,0 +1,61 @@
+{
+  "name": "metallic-listeners",
+  "version": "0.0.0",
+  "description": "Handle collections of listeners",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CartoDB/metallic-listeners.git"
+  },
+  "keywords": [
+    "listeners",
+    "metallic"
+  ],
+  "author": "Daniel García Aubert <dgaubert@carto.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CartoDB/metallic-listeners/issues"
+  },
+  "homepage": "https://github.com/CartoDB/metallic-listeners#readme",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "metallic-errors": "^0.1.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib --source-maps inline",
+    "build:watch": "npm run build -- --watch",
+    "coverage": "istanbul cover _mocha lib/test/ -- --recursive",
+    "lint": "standard \"src/**/*.js\"",
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm run build",
+    "pretest": "npm run lint",
+    "preversion": "npm test",
+    "test": "mocha --recursive -r babel-register -r source-map-support/register test",
+    "test:watch": "npm run test -- -w",
+    "version": "git add -A benchmark"
+  },
+  "devDependencies": {
+    "babel-cli": "6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.23.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "sinon": "1.17.7",
+    "source-map-support": "0.4.11",
+    "standard": "9.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  }
+}
