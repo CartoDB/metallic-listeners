@@ -8,7 +8,6 @@ describe('listeners', function () {
   beforeEach(function () {
     this.sandbox = sinon.sandbox.create()
 
-    console.log(require('util').inspect(Listeners, { depth: null }));
     this.listeners = new Listeners()
   })
 
