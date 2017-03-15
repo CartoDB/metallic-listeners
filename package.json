@@ -24,7 +24,7 @@
     "test": "test"
   },
   "dependencies": {
-    "metallic-errors": "^0.1.0"
+    "metallic-errors": "^0.1.1"
   },
   "scripts": {
     "build": "babel src -d lib --source-maps inline",
