@@ -40,13 +40,13 @@
     "version": "git add -A CHANGELOG.md"
   },
   "devDependencies": {
-    "babel-cli": "6.23.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.23.0",
-    "istanbul": "0.4.5",
-    "mocha": "3.2.0",
-    "sinon": "1.17.7",
-    "source-map-support": "0.4.11",
-    "standard": "9.0.1"
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "source-map-support": "^0.4.11",
+    "standard": "^9.0.1"
   },
   "standard": {
     "env": {
