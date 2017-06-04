@@ -12,9 +12,9 @@ export default class Listeners extends Set {
     return this
   }
 
-  listen (exit) {
+  listen (handler) {
     for (let listener of this) {
-      listener.listen(exit)
+      listener.listen(handler)
     }
   }
 
