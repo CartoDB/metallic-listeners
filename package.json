@@ -1,6 +1,6 @@
 {
   "name": "metallic-listeners",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Handle collections of listeners",
   "main": "lib/index.js",
   "repository": {
