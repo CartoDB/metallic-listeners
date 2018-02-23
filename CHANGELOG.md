@@ -7,7 +7,7 @@
  - Ignore coverage folder while publishing
  - Update deps:
    + metallic-errors: 0.3.0
-- Update devel deps:
+ - Update devel deps:
    + mocha: 5.0.1
    + nyc: 11.4.1
    + sinon: 4.4.0
