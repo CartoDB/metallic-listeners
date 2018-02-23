@@ -1,5 +1,18 @@
 # Metallic Listeners ChangeLog
 
+## v0.5.0 (2018-02-23)
+
+ - Add TravisCI support
+ - Fix issues with test, build and publish commands
+ - Ignore coverage folder while publishing
+ - Update deps:
+   + metallic-errors: 0.3.0
+- Update devel deps:
+   + mocha: 5.0.1
+   + nyc: 11.4.1
+   + sinon: 4.4.0
+   + standard: 11.0.0
+
 
 ## v0.4.0 (2017-11-19)
 
