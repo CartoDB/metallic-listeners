@@ -24,7 +24,7 @@
     "test": "test"
   },
   "dependencies": {
-    "metallic-errors": "^0.2.0"
+    "metallic-errors": "^0.3.0"
   },
   "scripts": {
     "prebuild": "npm run clean",
@@ -44,11 +44,11 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-register": "^6.26.0",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
+    "mocha": "^5.0.1",
+    "nyc": "^11.4.1",
     "rimraf": "^2.6.2",
-    "sinon": "^4.1.2",
-    "standard": "^10.0.3"
+    "sinon": "^4.4.0",
+    "standard": "^11.0.0"
   },
   "standard": {
     "env": {
